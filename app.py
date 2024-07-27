@@ -309,7 +309,7 @@ def main():
     insert_data_into_spreadsheet(spreadsheet_name, data_product)
 
     # 6. Agendar o script para que execute a cada 30 min.
-    schedule_application_execution(2)
+    schedule_application_execution()
 
 if __name__ == '__main__':
     main()
